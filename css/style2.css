@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: FC-Iconic-Regular;
+}
+
+/* smartphone */
+.smartphone{
+    display: none; /* ปิดข้อความของ smartphone */
+}
+@media only screen and (max-width:500px){
+    /* Master Page */
+    body{
+        background-color: #dbd8e7;
+        overflow-x: hidden;
+        /* height: 100vh; */
+        /* width: 100vw; */
+    }
+    #smartphone{
+        display: block;
+    }
+    #smartphone .top-menu{
+        height: 7vh;
+        margin: 0;
+        padding: 0;
+    }
+    #smartphone .logo{
+        width: 30px;
+        margin: 3px 3px 3px 0px;
+    }
+    #smartphone p{
+        font-size: 18px;
+    }
+    #smartphone .button-hhg{
+        width: 17px;
+        height: 12px;
+        margin-bottom: 5px;
+    }
+    #smartphone .top-menu-right{
+        margin-right: 5px;
+    }
+    #smartphone .button-noti{
+        width: 12px;
+        height: 13px;
+        margin-bottom: 5px;
+    }
+    /* ----------- End Master Page ----------- */
+
+    /* DashBoard */
+    #smartphone .d-board{
+        background-color: white;
+        padding: 0;
+        margin: 0;
+    }
+    #smartphone .d-board .d-item{
+        margin: 10px 20px 10px 20px;
+        border-radius: 35px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+        /* text-align: center; */
+    }
+    #smartphone .d-board .d-item img{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+    #smartphone .d-board .d-item .h-item{
+        padding: 0;
+        margin: 0;
+        display: inline;
+        margin-left: 5px;
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+    }
+    #smartphone .d-board .d-item .border-item{
+        border-top: 1px solid rgb(255, 255, 255);
+    }
+    #smartphone .d-board .d-item .body-item{
+        padding: 0;
+        margin: 0;
+        margin-top: 5px;
+        font-size: 19px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+    }
+    #smartphone .d-board .d-item .number-item{
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+    }
+    /* ----------- End DashBoard Page ----------- */
+}
+
+/* tablets */
+.tablets{
+    display: none;
+}
+@media (min-width:501px) and (max-width:768px){
+    body{
+        background-color: #dbd8e7;
+        overflow-x: hidden;
+    }
+    #tablets{
+        display: block;
+    }
+    #tablets .top-menu{
+        height: 7vh;
+        margin: 0;
+        padding: 0;
+    }
+    #tablets .logo{
+        width: 30px;
+        margin: 3px 3px 3px 0px;
+    }
+    #tablets p{
+        font-size: 18px;
+    }
+    #tablets .button-hhg{
+        width: 17px;
+        height: 12px;
+        margin-bottom: 5px;
+    }
+    #tablets .top-menu-right{
+        margin-right: 5px;
+    }
+    #tablets .button-noti{
+        width: 13px;
+        height: 14px;
+        margin-bottom: 2px;
+    }
+    /* ----------- End Master Page ----------- */
+
+    /* DashBoard */
+    #tablets .d-board{
+        background-color: white;
+        padding: 0;
+        margin: 0;
+    }
+    #tablets .d-board .d-item{
+        margin: 10px 50px 10px 50px;
+        border-radius: 35px 35px 35px 35px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+        /* text-align: center; */
+    }
+    #tablets .d-board .d-item img{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+    #tablets .d-board .d-item .h-item{
+        padding: 0;
+        margin: 0;
+        display: inline;
+        margin-left: 5px;
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+    }
+    #tablets .d-board .d-item .border-item{
+        border-top: 1px solid rgb(255, 255, 255);
+    }
+    #tablets .d-board .d-item .body-item{
+        padding: 0;
+        margin: 0;
+        margin-top: 5px;
+        font-size: 19px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+    }
+    #tablets .d-board .d-item .number-item{
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+    }
+    /* ----------- End DashBoard Page ----------- */
+}
+
+/* laptop PC */
+.LPC{
+    display: none;
+}
+@media (min-width:769px) /*and (max-width:1200px)*/{
+    body{
+        background-color: #dbd8e7;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #LPC{
+        display: block;
+    }
+    #LPC .top-menu .logo{
+        width: 38px;
+        margin: 3px 3px 3px 0px;
+    }
+    #LPC .top-menu p{
+        font-size: 20px;
+    }
+    #LPC .top-menu .user-name{
+        font-size: 18px;
+    }
+    #LPC .top-menu .button-hhg{
+        width: 19px;
+        height: 14px;
+        margin-bottom: 5px;
+    }
+    #LPC .top-menu .button-noti{
+        width: 17px;
+        height: 18px;
+        margin-bottom: 5px;
+    }
+    #LPC .lef-menu{
+        background-color: #212529e3;
+        height: 100vh;
+        width: 16.7%;
+    }
+    #LPC .lef-menu p{
+        font-size: 15px;
+    }
+    #LPC .lef-menu a{
+        font-size: 18px;
+    }
+/* ----------- End Master Page ----------- */
+
+/* ----------- DashBoard ----------- */
+    #LPC .d-board{
+        background-color: white;
+        height: 100vh;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    #LPC .d-board .d-item{
+        margin: 60px 20px 120px 20px;
+        border-radius: 35px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        width: 18vw;
+    }
+    #LPC .d-board .d-item img{
+        margin-top: 50px;
+        margin-bottom: 10px;
+        width: 90px;
+        height: 90px;
+    }
+    #LPC .d-board .d-item .h-item{
+        padding: 0;
+        margin: 0;
+        font-size: 18px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        color: rgba(0, 0, 0, 0.534);
+    }
+    #LPC .d-board .d-item .border-item{
+        border-top: 1px solid rgb(255, 255, 255);
+    }
+    #LPC .d-board .d-item .body-item{
+        padding: 0;
+        margin: 0;
+        font-size: 19px;
+        font-weight: 500;
+        margin-top: 60px;
+        color: white;
+    }
+    #LPC .d-board .d-item .number-item{
+        padding: 0;
+        margin: 0;
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 60px;
+        color: white;
+    }
+/* ----------- End DashBoard Page ----------- */
+
+/* ----------- ที่ยังไม่ได้ดำเนินการ ----------- */
+    #LPC .not-imple{
+        background-color: white;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+    #LPC .not-imple .h-text{
+        font-size: 23px;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    #LPC .not-imple .btn-add{
+        margin-right: 50px;
+        width: 6vw;
+    }
+    #LPC .not-imple .search{
+        text-align: center;
+    }
+    #LPC .not-imple .search .imput-search{
+        width: 30vw;
+    }
+    #LPC .not-imple .search .btn-search{
+        border-radius: 50px;
+        margin-left: 5px;
+        width: 40px;
+        background-color: rgb(143, 143, 143);
+        border-color: rgb(184, 184, 184);
+    }
+    #LPC .not-imple .btn-search img{
+        width: 20px;
+    }
+/* ----------- End ที่ยังไม่ได้ดำเนินการ Page ----------- */
+}
+
+/* TV screen */
+/* @media (min-width:1201px){
+    body{
+        background-color: black;
+    }
+    #tvscreen h1{
+        display: block;
+    }
+} */
+
+/* Landscape */
+/* @media (max-height:500px){
+    body{
+        background-color: green;
+    }
+    #landscape h1{
+        display: block;
+    }
+} */

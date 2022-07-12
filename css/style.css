@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: FC-Iconic-Regular;
+}
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-17{
+    font-size: 17px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.f-weight{
+    font-weight: 700;
+}
+
+/* Master Custommer */
+.top-menu .logo{
+    width: 38%;
+    margin: 10px 5px 10px 0px;
+}
+.top-menu p{
+    font-size: 18px;
+}
+.top-menu .button-hhg{
+    width: 18px;
+    height: 15px;
+    margin-bottom: 5px;
+}
+.top-menu .button-noti{
+    width: 17px;
+    height: 18px;
+}
+.top-menu .button-dropdown{
+    margin-top: 5px;
+}
+
+/* Dashboard Custommer */
+.d-board{
+    padding: 8px;
+    margin: 0;
+}
+.d-board .d-item{
+    border-radius: 35px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.d-board .d-item img{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 90px;
+    height: 90px;
+}
+.d-board .d-item .h-item{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.d-board .d-item .border-item{
+    border-top: 1px solid rgb(255, 255, 255);
+}
+.d-board .d-item .body-item{
+    padding: 0;
+    margin: 0;
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: white;
+}
+.d-board .d-item .number-item{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+.number-item-emp{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* Not implemented Custommer ที่ยังไม่ได้ดำเนินการ */
+.not-imple{
+    background-color: white;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.not-imple .h-text{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.not-imple .search{
+    text-align: center;
+}
+.not-imple .search .imput-search{
+    width: 50%;
+}
+.not-imple .search .btn-search{
+    border-radius: 50px;
+    margin-left: 5px;
+    width: 40px;
+    background-color: rgb(143, 143, 143);
+    border-color: rgb(184, 184, 184);
+}
+.not-imple .btn-search img{
+    width: 20px;
+}
+
+/* The Modal */
+  #exampleModal .modal-dialog {
+    position: absolute;
+    top: -0.6px ; 
+    bottom: -0.6px ;
+    left: -0.6px ;
+    margin: 0px;
+  }
+  #exampleModal .modal-content {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+    width: 240px;
+    height: 100%;
+  }
+
+  #exampleModal .logo-modal{
+      margin-top: 5px;
+  }
+
+  .ho-ac:hover, .ho-ac:active {background: rgb(97, 95, 95);}
